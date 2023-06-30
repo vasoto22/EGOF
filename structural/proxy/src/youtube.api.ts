@@ -12,7 +12,7 @@ class YouTubeApi implements IVideoProvider {
     async getPlayList(videos: string): Promise<string[]> {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                const result = this.playList[code] || null;
+                const result = this.playList[videos] || null;
                 resolve(result);
             }, 3000);
         });
