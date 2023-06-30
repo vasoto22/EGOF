@@ -5,14 +5,14 @@ class VideoProxy implements IVideoProvider {
 
     constructor(private readonly provider: IVideoProvider) { }
 
-    async getPlayList(code: string): Promise<string[]> {
-        let result = this.cache[code];
+    async getPlayList(videos: string): Promise<string[]> {
+        let result = this.cache[videos];
 
         if (!result) {
-            result = await this.provider.getPlayList(code);
+            result = await this.provider.getPlayList(videos);
 
             // push to cache
-            this.cache[code] = result;
+            this.cache[videos] = result;
         }
 
         return result;
