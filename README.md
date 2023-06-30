@@ -5,6 +5,8 @@ Son considerados como una guía útil para resolver problemas de diseño comunes
 
 ## Patrones Creacionales:
 
+Los patrones de creación se centran en la creación de objetos de manera flexible y eficiente. Estos patrones se utilizan para resolver problemas relacionados con la creación de instancias de clases, la configuración de objetos y la gestión de su ciclo de vida.
+
 * Singleton: Garantiza que una clase tenga una única instancia y proporciona un punto de acceso global a ella.
 * Factory Method: Define una interfaz para crear objetos, pero permite a las subclases decidir qué clase concreta instanciar.
 * Abstract Factory: Proporciona una interfaz para crear familias de objetos relacionados sin especificar sus clases concretas.
@@ -12,6 +14,8 @@ Son considerados como una guía útil para resolver problemas de diseño comunes
 * Prototype: Permite crear nuevos objetos mediante la clonación de un objeto existente.
 
 ## Patrones Estructurales:
+
+Los patrones estructurales se centran en la composición y estructura de las clases y objetos. Estos patrones se utilizan para definir relaciones y facilitar la composición de objetos para formar estructuras más complejas. Los patrones estructurales también pueden ayudar a adaptar interfaces incompatibles o proporcionar una interfaz más sencilla para interactuar con un sistema complejo
 
 * Adapter: Convierte la interfaz de una clase en otra interfaz que los clientes esperan.
 * Bridge: Separa la abstracción de su implementación, lo que permite que ambas varíen de forma independiente.
@@ -22,6 +26,8 @@ Son considerados como una guía útil para resolver problemas de diseño comunes
 * Proxy: Proporciona un representante o sustituto de otro objeto para controlar su acceso.
 
 ## Patrones de Comportamiento:
+
+Los patrones de comportamiento se centran en cómo se comunican y se organizan los objetos en tiempo de ejecución. Estos patrones se utilizan para definir algoritmos, interacciones entre objetos y la asignación de responsabilidades entre ellos. Los patrones de comportamiento ayudan a mejorar la flexibilidad, la extensibilidad y la modularidad del código.
 
 * Chain of Responsibility: Permite que múltiples objetos se turnen para manejar una solicitud, evitando acoplamientos entre el remitente y el receptor.
 * Command: Encapsula una solicitud como un objeto, permitiendo parametrizar clientes con diferentes solicitudes, encolarlas o registrar su ejecución.
