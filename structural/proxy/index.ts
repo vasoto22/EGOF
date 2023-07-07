@@ -14,7 +14,7 @@ const proxy = new VideoProxy(new YouTubeApi());
 async function getPlayList() {
     const startDate = new Date();
 
-    await proxy.getPlayList('courses');
+    await proxy.getPlayList('videos');
 
     const endDate = new Date();
 
