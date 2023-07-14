@@ -4,7 +4,9 @@
   "description": "Patrones de Diseño",
   "main": "index.js",
   "scripts": {
-    "test-singleton": "mocha -r ts-node/register creational/singleton/*.spec.ts"
+    "test-singleton": "mocha -r ts-node/register creational/singleton/*.spec.ts",
+    "test-factory": "mocha -r ts-node/register creational/factory/*.spec.ts",
+    "test-abstract-factory": "mocha -r ts-node/register creational/abstract-factory/*.spec.ts"
   },
   "author": "",
   "license": "ISC",
